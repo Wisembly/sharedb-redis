@@ -1,0 +1,15 @@
+{
+  "name": "sharedb-db",
+  "version": "0.0.1",
+  "description": "Redis database adapter for ShareDB",
+  "main": "index.js",
+  "dependencies": {
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.0"
+  },
+  "repository": "git://github.com/Wisembly/sharedb-redis.git",
+  "author": "Remy Gazelot",
+  "license": "MIT"
+}
