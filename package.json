@@ -9,6 +9,9 @@
   "devDependencies": {
     "standard": "^14.3.0"
   },
+  "scripts": {
+    "lint": "standard --fix --verbose"
+  },
   "repository": "git://github.com/Wisembly/sharedb-redis.git",
   "author": "Remy Gazelot",
   "license": "MIT"
