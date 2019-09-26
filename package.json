@@ -4,13 +4,16 @@
   "description": "Redis database adapter for ShareDB",
   "main": "index.js",
   "dependencies": {
-    "redis": "^2.8.0"
+    "redis": "^2.8.0",
+    "sharedb": "^1.0.0-beta.23"
   },
   "devDependencies": {
+    "jest": "^24.9.0",
     "standard": "^14.3.0"
   },
   "scripts": {
-    "lint": "standard --fix --verbose"
+    "lint": "standard --fix --verbose",
+    "test": "jest"
   },
   "repository": "git://github.com/Wisembly/sharedb-redis.git",
   "author": "Remy Gazelot",
