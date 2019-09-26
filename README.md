@@ -21,3 +21,9 @@ const db = new RedisDatabase({
 
 const sharedb = new Sharedb({ db })
 ```
+
+### Tests
+
+```cli
+npm run test
+```
